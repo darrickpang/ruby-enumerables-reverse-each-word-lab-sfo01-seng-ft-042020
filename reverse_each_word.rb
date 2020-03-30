@@ -6,5 +6,5 @@ def reverse_each_word(str)
     newarr.push(arr[x].reverse)
     x += 1
   end 
-  newarr
+  newarr.join(' ')
 end 
